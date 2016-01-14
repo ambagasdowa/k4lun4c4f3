@@ -1,0 +1,55 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 2, 2015, 12:55:21 PM
+    Author     : cyberio
+*/
+
+body { font-family: Helvetica, Arial, sans-serif; }
+
+.dropzone-wrapper {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.dropzone {
+    overflow: hidden;
+    margin: .5em;
+    padding: 1em;
+    color: #666;
+    text-align: center;
+    background: #ccc;
+    line-height: 4em;
+    border: 4px dashed transparent;
+    transition: background .15s linear, border-color .15s linear;
+    height: 500px;
+}
+
+.dropzone.-drop-possible { border-color: #666; }
+
+.dropzone.-drop-over {
+    background: #666;
+    color: #fff;
+}
+
+.draggable {
+    position: relative;
+    z-index: 10;
+    width: 200px;
+    margin: .15em;
+    padding: 0.5em 1em;
+    
+    color: #fff;
+    text-align: left;
+
+    -ms-touch-action: none;
+        touch-action: none;
+        
+}
+
+.draggable.-drop-possible {  }
